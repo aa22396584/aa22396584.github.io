@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Telltale 隱私權政策 / Privacy Policy</title>
+<style>
+  :root {
+    --bg: #ffffff; --fg: #14181d; --muted: #5b6672;
+    --rule: #e3e7ec; --accent: #0f766e; --card: #f6f8fa;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #14181d; --fg: #e8edf2; --muted: #9aa6b2;
+            --rule: #2a3138; --accent: #5eead4; --card: #1c2229; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--fg);
+    font: 16px/1.7 -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans TC",
+          "PingFang TC", "Microsoft JhengHei", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 44rem; margin: 0 auto; padding: 3rem 1.25rem 5rem; }
+  h1 { font-size: 1.75rem; line-height: 1.3; margin: 0 0 .35rem; }
+  h2 { font-size: 1.2rem; margin: 2.5rem 0 .75rem; padding-top: 1.25rem;
+       border-top: 1px solid var(--rule); }
+  h2:first-of-type { border-top: 0; padding-top: 0; }
+  p, li { color: var(--fg); }
+  .sub { color: var(--muted); margin: 0 0 2rem; font-size: .95rem; }
+  .lede { background: var(--card); border-left: 3px solid var(--accent);
+          padding: 1rem 1.25rem; border-radius: 0 6px 6px 0; }
+  table { border-collapse: collapse; width: 100%; margin: 1rem 0; font-size: .95rem; }
+  th, td { text-align: left; padding: .6rem .7rem; border-bottom: 1px solid var(--rule);
+           vertical-align: top; }
+  th { color: var(--muted); font-weight: 600; }
+  code { background: var(--card); padding: .1rem .35rem; border-radius: 4px;
+         font-size: .9em; font-family: ui-monospace, SFMono-Regular, Menlo, monospace; }
+  a { color: var(--accent); }
+  .wrap { overflow-x: auto; }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 3.5rem 0 2.5rem; }
+  .language-nav { display: flex; gap: 1rem; margin: 0 0 2rem; font-size: .95rem; }
+  .language-nav a { color: var(--muted); text-decoration: none; border-bottom: 1px solid var(--rule); }
+  .language-nav a:hover, .language-nav a:focus { color: var(--fg); border-bottom-color: currentColor; }
+  footer { color: var(--muted); font-size: .9rem; }
+</style>
+</head>
+<body>
+<main>
+
+<nav class="language-nav" aria-label="Language / 語言">
+  <a href="#zh">繁體中文</a>
+  <a href="#en" hreflang="en">English</a>
+</nav>
+
+<h1 id="zh">Telltale 隱私權政策</h1>
+<p class="sub">最後更新：2026 年 9 月 6 日</p>
+
+<p class="lede"><strong>Telltale 本身不收集資料，也不會主動上傳資料。</strong>
+沒有帳號、沒有廣告、沒有分析、沒有當機回報服務。App 唯一自己建立的連線是你設定的
+ELM327 轉接器。推薦轉接器連結只有在你點下去時，才會交給系統開啟蝦皮或瀏覽器。</p>
+
+<h2>我們收集哪些資料</h2>
+<p><strong>沒有。</strong>Telltale 不會收集個人資料，也不會把任何資料傳送到我們或第三方的
+伺服器。我們沒有伺服器。</p>
+
+<h2>App 在你裝置上儲存哪些東西</h2>
+<p>以下內容會寫入 App 的私有儲存空間，不會傳送到我們的伺服器：</p>
+<div class="wrap">
+<table>
+  <tr><th>內容</th><th>為什麼</th></tr>
+  <tr><td>你的車輛設定（排氣量、車重、風阻係數與逐欄來源等）</td><td>推算馬力與油耗需要；來源資訊用來避免把預設值說成官方規格</td></tr>
+  <tr><td>你自訂的 PID 定義</td><td>這是你寫的東西</td></tr>
+  <tr><td>上次使用的轉接器與 Wi-Fi 位址</td><td>下次不用再找一遍</td></tr>
+  <tr><td>介面設定（深色／淺色、儀表樣式）</td><td>記住你的選擇</td></tr>
+  <tr><td>診斷紀錄（最後一次連線）</td><td>連不上時可以匯出給人看</td></tr>
+</table>
+</div>
+<p><strong>診斷紀錄</strong>值得特別說明：它記錄 App 與轉接器之間往返的原始位元組，包括車輛
+回報的 VIN 與故障碼。App 不會自行上傳；只有你按下「匯出」時，才會交給你選擇的其他
+App。</p>
+<p>Android、iOS 或 macOS 的作業系統備份可能依你的裝置與雲端備份設定，複製 App 的
+私有資料。解除安裝會移除裝置上的本機副本，但不一定會刪除作業系統先前建立的備份。
+若不希望備份這些資料，請在裝置設定中停用 Telltale 或整台裝置的備份。</p>
+
+<h2>網路連線</h2>
+<p>Telltale 需要 <code>INTERNET</code> 權限，但<strong>不用來連上網際網路</strong>。它只用來對
+Wi-Fi 型 ELM327 轉接器開啟一條 TCP 連線 —— 那是一個區域位址（通常是
+<code>192.168.0.10:35000</code>），Android 沒有更精確的權限可以表達「只連本地」。</p>
+<p>App 不會自己對網際網路發出要求。連線與設定頁的推薦轉接器是維護者的推廣分潤
+連結：只有你點下去時，系統才會開啟蝦皮或瀏覽器，站台政策歸該賣場。
+其餘功能可以在飛航模式下（開著藍牙）完整使用。</p>
+<p>官方車型目錄與來源 manifest 已包在 App 內；只有維護者更新原始碼快照的工具會下載
+官方公開資料，安裝在手機上的 App 不會送出 VIN 或車型搜尋。</p>
+
+<h2>權限說明</h2>
+<div class="wrap">
+<table>
+  <tr><th>權限</th><th>用途</th></tr>
+  <tr><td><code>BLUETOOTH_CONNECT</code></td><td>連線到已配對的 ELM327 轉接器</td></tr>
+  <tr><td><code>BLUETOOTH_SCAN</code></td><td>搜尋尚未配對的 BLE 轉接器（宣告 <code>neverForLocation</code>）</td></tr>
+  <tr><td><code>BLUETOOTH</code> / <code>BLUETOOTH_ADMIN</code></td><td>Android 11 以下的等效權限</td></tr>
+  <tr><td><code>ACCESS_FINE_LOCATION</code> / <code>ACCESS_COARSE_LOCATION</code></td>
+      <td><strong>僅限 Android 11 以下</strong>（<code>maxSdkVersion="30"</code>）。舊版 Android 把 BLE
+      掃描歸在位置權限底下，這是系統規定，不是我們要你的位置。App 不讀取、不儲存、不傳送
+      任何位置資訊</td></tr>
+  <tr><td><code>INTERNET</code> / <code>ACCESS_NETWORK_STATE</code></td><td>連線 Wi-Fi 型轉接器（見上）</td></tr>
+</table>
+</div>
+<p><code>BLUETOOTH_ADVERTISE</code> 在本 App 的資訊清單中以 <code>tools:node="remove"</code>
+明確移除。這個 App 只當客戶端 —— 它連到轉接器，從不讓手機自己變成可被發現的裝置。移除而非
+單純不寫，是因為 Android 的資訊清單以聯集合併：只要任何一個相依套件宣告了它，不寫就等於
+預設帶上。（2026-08-18 實測合併後的資訊清單：目前沒有任何相依套件宣告它，所以這是保險
+而不是修正。）</p>
+
+<h2>第三方服務</h2>
+<p><strong>沒有。</strong>App 沒有整合任何分析、廣告、當機回報或行銷 SDK。你可以在
+<a href="https://github.com/aa22396584/telltale">原始碼</a>的 <code>pubspec.yaml</code>
+裡自行確認相依套件清單。</p>
+
+<h2>兒童</h2>
+<p>本 App 不針對兒童設計，也不會在知情的情況下收集兒童資料 —— 事實上它不收集任何人的資料。</p>
+
+<h2>付費與退款</h2>
+<p>Google Play 處理所有付款。我們看不到你的付款資訊。退款依 Google Play 的政策辦理。</p>
+
+<h2>開放原始碼</h2>
+<p>Telltale 以 GPL-3.0 授權開放原始碼。本政策所述的每一項，你都可以在
+<a href="https://github.com/aa22396584/telltale">原始碼</a>中自行驗證 —— 這比任何一份隱私權政策的
+文字都更值得相信。</p>
+
+<h2>變更</h2>
+<p>本政策若有變更，會更新本頁的日期並在 GitHub 的版本紀錄中留下完整差異。</p>
+
+<h2>聯絡</h2>
+<p>有疑問請開 issue：<a href="https://github.com/aa22396584/telltale/issues">github.com/aa22396584/telltale/issues</a></p>
+
+<hr>
+
+<h1 id="en" lang="en">Telltale Privacy Policy</h1>
+<p class="sub">Last updated: 6 September 2026</p>
+
+<p class="lede"><strong>Telltale itself collects nothing and proactively uploads nothing.</strong>
+There are no accounts, ads, analytics, or crash reporting. The only connection the app
+itself initiates is to the ELM327 adapter you configure. Recommended-adapter
+links open Shopee or a browser only after you tap them.</p>
+
+<h2>What we collect</h2>
+<p><strong>Nothing.</strong> Telltale does not collect personal data, and does not send any
+data to our servers or to third parties. We have no servers.</p>
+
+<h2>What the app stores on your device</h2>
+<p>The following are written to the app's private storage and are not sent to our
+servers:</p>
+<div class="wrap">
+<table>
+  <tr><th>What</th><th>Why</th></tr>
+  <tr><td>Your vehicle profile (displacement, mass, drag coefficient, and the per-field source of each)</td><td>Estimating power and fuel use needs them; the source references exist so a default is never presented as a manufacturer specification</td></tr>
+  <tr><td>Your custom PID definitions</td><td>You wrote them</td></tr>
+  <tr><td>The last adapter and Wi-Fi address used</td><td>So you do not have to find it again</td></tr>
+  <tr><td>Interface preferences (dark/light, gauge skin)</td><td>To remember what you chose</td></tr>
+  <tr><td>The diagnostic transcript (most recent session)</td><td>So you can export it for someone to read when a connection fails</td></tr>
+</table>
+</div>
+<p>The <strong>diagnostic transcript</strong> records the raw bytes exchanged with the
+adapter, including the VIN and fault codes the vehicle reports. The app never uploads it on
+its own; pressing Export hands it to another app that you choose.</p>
+<p>Android, iOS, or macOS system backup may copy the app's private data according to your
+device and cloud-backup settings. Uninstalling removes the local copy from the device, but
+may not erase a backup the operating system already made. Disable backup for Telltale or the
+device if you do not want this data backed up.</p>
+
+<h2>Network access</h2>
+<p>The <code>INTERNET</code> permission is not used to reach the internet. It opens a TCP
+connection to a Wi-Fi ELM327 adapter on a local address — Android has no narrower permission
+for "local network only". The app does not itself make other network requests.
+Recommended-adapter links on Connect and Settings are maintainer affiliate listings:
+they open Shopee or a browser only after you tap them, and that store's policy applies
+there. Everything else works fully in aeroplane mode with Bluetooth on.</p>
+<p>The official vehicle catalog and its source manifest are bundled with the app. Only the
+maintainer's source-update tool downloads the public official data; the installed app does
+not transmit a VIN or vehicle search.</p>
+
+<h2>Permissions</h2>
+<div class="wrap">
+<table>
+  <tr><th>Permission</th><th>What it is for</th></tr>
+  <tr><td><code>BLUETOOTH_CONNECT</code></td><td>Connecting to a paired ELM327 adapter</td></tr>
+  <tr><td><code>BLUETOOTH_SCAN</code></td><td>Finding an unpaired BLE adapter (declared <code>neverForLocation</code>)</td></tr>
+  <tr><td><code>BLUETOOTH</code> / <code>BLUETOOTH_ADMIN</code></td><td>The equivalents on Android 11 and below</td></tr>
+  <tr><td><code>ACCESS_FINE_LOCATION</code> / <code>ACCESS_COARSE_LOCATION</code></td>
+      <td><strong>Android 11 and below only</strong> (<code>maxSdkVersion="30"</code>). Older Android
+      files BLE scanning under the location permission. That is the system's rule, not us asking
+      where you are: the app never reads, stores or transmits any location.</td></tr>
+  <tr><td><code>INTERNET</code> / <code>ACCESS_NETWORK_STATE</code></td><td>Reaching a Wi-Fi adapter (see above)</td></tr>
+</table>
+</div>
+<p><code>BLUETOOTH_ADVERTISE</code> is explicitly removed from this app's manifest with
+<code>tools:node="remove"</code>. This app is a client — it connects to an adapter and never makes
+your phone discoverable. Removed rather than merely omitted, because Android merges manifests by
+union: one dependency declaring it would be enough to ship it. (Checked against the merged manifest
+on 2026-08-18: no current dependency declares it, so this is insurance rather than a correction.)</p>
+
+<h2>Third-party services</h2>
+<p>None. No analytics, advertising, crash reporting or marketing SDKs. You can verify this
+yourself in <code>pubspec.yaml</code> in the
+<a href="https://github.com/aa22396584/telltale">source</a>.</p>
+
+<h2>Children</h2>
+<p>This app is not directed at children and does not knowingly collect data from them — in
+fact it collects data from no one.</p>
+
+<h2>Payment and refunds</h2>
+<p>Google Play handles all payments. We never see your payment details. Refunds follow
+Google Play's policy.</p>
+
+<h2>Open source</h2>
+<p>Telltale is GPL-3.0. Every claim in this policy is verifiable in the source, which is
+worth more than the policy text.</p>
+
+<h2>Changes</h2>
+<p>If this policy changes, the date on this page changes with it and the full diff stays in the
+GitHub history.</p>
+
+<h2>Contact</h2>
+<p><a href="https://github.com/aa22396584/telltale/issues">github.com/aa22396584/telltale/issues</a></p>
+
+<hr>
+<footer>Telltale — 車輛即時遙測 · <a href="https://github.com/aa22396584/telltale">原始碼 (GPL-3.0)</a></footer>
+
+</main>
+</body>
+</html>
