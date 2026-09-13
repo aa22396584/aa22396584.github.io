@@ -19,6 +19,8 @@
 
 ---
 
+> **Why this GitHub home?** Public development moved here from [`ImL1s/iml1s.github.io`](https://github.com/ImL1s/iml1s.github.io) because that GitHub account is currently restricted (anonymous visitors get 404 on the profile and many assets). This is the same project. Please open Issues and Pull Requests here.
+
 ## 🚀 What I Do
 
 <div align="center">
