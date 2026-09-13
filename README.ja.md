@@ -9,7 +9,7 @@
 
   # こんにちは、ImL1s です 👋
   
-  [![ポートフォリオ](https://img.shields.io/badge/Portfolio-iml1s.github.io-blue?style=for-the-badge&logo=github)](https://iml1s.github.io)
+  [![ポートフォリオ](https://img.shields.io/badge/Portfolio-aa22396584.github.io-blue?style=for-the-badge&logo=github)](https://aa22396584.github.io)
   [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/l1s_ai?style=for-the-badge)](https://x.com/l1s_ai)
 
   **シニアフルスタックエンジニア | ブロックチェーン専門家 | AI ネイティブエンジニア**
@@ -117,7 +117,7 @@ AI を活用してコーディングを加速し、レビューを自動化し�
   
   **一緒に素晴らしいものを作りましょう！** 🚀
   
-  [![ポートフォリオ](https://img.shields.io/badge/🌐_Portfolio-iml1s.github.io-blue?style=for-the-badge)](https://iml1s.github.io)
+  [![ポートフォリオ](https://img.shields.io/badge/🌐_Portfolio-aa22396584.github.io-blue?style=for-the-badge)](https://aa22396584.github.io)
   [![Twitter](https://img.shields.io/badge/𝕏_Twitter-@l1s__ai-black?style=for-the-badge)](https://x.com/l1s_ai)
 
 </div>

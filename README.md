@@ -9,7 +9,7 @@
 
   # Hi there, I'm ImL1s 👋
   
-  [![Portfolio](https://img.shields.io/badge/Portfolio-iml1s.github.io-blue?style=for-the-badge&logo=github)](https://iml1s.github.io)
+  [![Portfolio](https://img.shields.io/badge/Portfolio-aa22396584.github.io-blue?style=for-the-badge&logo=github)](https://aa22396584.github.io)
   [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/l1s_ai?style=for-the-badge)](https://x.com/l1s_ai)
 
   **Senior Full Stack Developer | Blockchain Specialist | AI-Native Engineer**
@@ -117,7 +117,7 @@ I leverage AI to accelerate coding, automate reviews, and architect solutions:
   
   **Let's build something amazing together!** 🚀
   
-  [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-iml1s.github.io-blue?style=for-the-badge)](https://iml1s.github.io)
+  [![Portfolio](https://img.shields.io/badge/🌐_Portfolio-aa22396584.github.io-blue?style=for-the-badge)](https://aa22396584.github.io)
   [![Twitter](https://img.shields.io/badge/𝕏_Twitter-@l1s__ai-black?style=for-the-badge)](https://x.com/l1s_ai)
 
 </div>

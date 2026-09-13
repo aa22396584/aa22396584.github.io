@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://iml1s.github.io/sitemap.xml
+Sitemap: https://aa22396584.github.io/sitemap.xml

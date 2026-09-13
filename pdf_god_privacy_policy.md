@@ -26,4 +26,4 @@ We may use standard third-party services for app stability and performance, such
 
 ## 5. Contact Us
 If you have any questions about this Privacy Policy, please contact us at:
-[iml1s@github.io](https://iml1s.github.io)
+[iml1s@github.io](https://aa22396584.github.io)

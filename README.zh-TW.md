@@ -9,7 +9,7 @@
 
   # 嗨，我是 ImL1s 👋
   
-  [![作品集](https://img.shields.io/badge/作品集-iml1s.github.io-blue?style=for-the-badge&logo=github)](https://iml1s.github.io)
+  [![作品集](https://img.shields.io/badge/作品集-aa22396584.github.io-blue?style=for-the-badge&logo=github)](https://aa22396584.github.io)
   [![X (formerly Twitter) Follow](https://img.shields.io/twitter/follow/l1s_ai?style=for-the-badge)](https://x.com/l1s_ai)
 
   **資深全端工程師 | 區塊鏈專家 | AI 原生開發者**
@@ -117,7 +117,7 @@
   
   **一起打造令人驚艷的產品吧！** 🚀
   
-  [![作品集](https://img.shields.io/badge/🌐_作品集-iml1s.github.io-blue?style=for-the-badge)](https://iml1s.github.io)
+  [![作品集](https://img.shields.io/badge/🌐_作品集-aa22396584.github.io-blue?style=for-the-badge)](https://aa22396584.github.io)
   [![Twitter](https://img.shields.io/badge/𝕏_Twitter-@l1s__ai-black?style=for-the-badge)](https://x.com/l1s_ai)
 
 </div>
